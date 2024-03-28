@@ -79,35 +79,10 @@ _G.packer_plugins = {
     path = "/home/limbo/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["cmp-buffer"] = {
-    loaded = true,
-    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/limbo/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["cmp-nvim-lua"] = {
-    loaded = true,
-    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-    url = "https://github.com/hrsh7th/cmp-nvim-lua"
-  },
-  ["cmp-path"] = {
-    loaded = true,
-    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
-  },
-  cmp_luasnip = {
-    loaded = true,
-    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["friendly-snippets"] = {
-    loaded = true,
-    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   harpoon = {
     loaded = true,
@@ -139,10 +114,21 @@ _G.packer_plugins = {
     path = "/home/limbo/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/limbo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["obsidian.nvim"] = {
+    config = { "\27LJ\2\nÂ\2\0\0\5\0\b\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0004\3\4\0005\4\3\0>\4\1\0035\4\4\0>\4\2\0035\4\5\0>\4\3\3=\3\a\2B\0\2\1K\0\1\0\15workspaces\1\0\0\1\0\2\tname\19cyberpunk_fate\tpath:/mnt/c/Users/connor/Documents/obsidian/cyberpunk_fate\1\0\2\tname\fvestige\tpath3/mnt/c/Users/connor/Documents/obsidian/vestige\1\0\2\tname\fgeneral\tpath3/mnt/c/Users/connor/Documents/obsidian/general\nsetup\robsidian\frequire\0" },
+    loaded = true,
+    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/obsidian.nvim",
+    url = "https://github.com/epwalsh/obsidian.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -158,6 +144,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/limbo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["pomo.nvim"] = {
+    config = { "\27LJ\2\n6\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\tpomo\frequire\0" },
+    loaded = true,
+    path = "/home/limbo/.local/share/nvim/site/pack/packer/start/pomo.nvim",
+    url = "https://github.com/epwalsh/pomo.nvim"
   },
   ["rose-pine"] = {
     loaded = true,
@@ -182,6 +174,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: pomo.nvim
+time([[Config for pomo.nvim]], true)
+try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\tpomo\frequire\0", "config", "pomo.nvim")
+time([[Config for pomo.nvim]], false)
+-- Config for: obsidian.nvim
+time([[Config for obsidian.nvim]], true)
+try_loadstring("\27LJ\2\nÂ\2\0\0\5\0\b\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0004\3\4\0005\4\3\0>\4\1\0035\4\4\0>\4\2\0035\4\5\0>\4\3\3=\3\a\2B\0\2\1K\0\1\0\15workspaces\1\0\0\1\0\2\tname\19cyberpunk_fate\tpath:/mnt/c/Users/connor/Documents/obsidian/cyberpunk_fate\1\0\2\tname\fvestige\tpath3/mnt/c/Users/connor/Documents/obsidian/vestige\1\0\2\tname\fgeneral\tpath3/mnt/c/Users/connor/Documents/obsidian/general\nsetup\robsidian\frequire\0", "config", "obsidian.nvim")
+time([[Config for obsidian.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
