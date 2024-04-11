@@ -1,5 +1,11 @@
 The Primeregen has a git for all of his dot file configurations for Linux. This might be useful to easily configure nvim and other such configuration stuff.
 # dotFiles
+## Installing nvim
+This can be a very frustrating process, so I figured it is a good idea to record how I have successfully installed nvim on different systems
+### Ubuntu (wsl)
+### Debian Bookworm (RPi5)
+- Attempted tarball, did not work
+- Attempted appimage, did not work
 ## Nvim Config
 Config is done in `.config/nvim`. In this directory you have `after` for storing plugin config, `lua` for storing general config, and `init.lua` which initializes the config on startup.
 ### .vimrc
