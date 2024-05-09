@@ -44,5 +44,7 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 ```
 ## Tmux Config
+## ZSH Config
+## nixOS Config
 ### Remaps
 # Install
