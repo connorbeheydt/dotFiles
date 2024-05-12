@@ -46,5 +46,6 @@ end)
 ## Tmux Config
 ## ZSH Config
 ## nixOS Config
+Testing pass
 ### Remaps
 # Install
