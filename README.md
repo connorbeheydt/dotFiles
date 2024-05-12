@@ -47,5 +47,6 @@ end)
 ## ZSH Config
 ## nixOS Config
 Testing pass
+Testing it again
 ### Remaps
 # Install
