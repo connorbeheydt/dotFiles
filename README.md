@@ -6,6 +6,10 @@ This can be a very frustrating process, so I figured it is a good idea to record
 ### Debian Bookworm (RPi5)
 - Attempted tarball, did not work
 - Attempted appimage, did not work
+- Attempting building from source based on [this](https://forums.raspberrypi.com/viewtopic.php?t=367119) tutorial
+  - [Install Packer using this](https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#quickstart)
+  - Install nodejs using [this](https://nodejs.org/en/download/package-manager)
+    - Also needed to run `source ~/.nvm/nvm.sh`
 ## Nvim Config
 Config is done in `.config/nvim`. In this directory you have `after` for storing plugin config, `lua` for storing general config, and `init.lua` which initializes the config on startup.
 ### .vimrc
